@@ -5,7 +5,10 @@
 
 html, body, #home {
   overflow-x: hidden;
+  font-family: 'Nunito'; font-size: 1em;
 }
+
+/*---------------------------- NAVBAR ADJUSTMENT--------------------------------*/
 
 .navbar {
   background: #17222D;
@@ -14,6 +17,26 @@ html, body, #home {
 .navbar-light .navbar-nav .nav-link {
     color: rgba(187, 204, 221, 0.5);
 }
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: rgb(187, 204, 221);
+}
+
+.fa-dot-circle {
+  color: white;
+  margin: 0 10px;
+  font-weight: 100;
+  font-size: 10px;
+  text-align: center;
+}
+
+/*---------------------------- HEADER ADJUSTMENT--------------------------------*/
 
 .bg-title {
   background: #EFF4F9;
@@ -25,9 +48,35 @@ html, body, #home {
   font-size: 50px;
 }
 
- .general-form{
+/*---------------------------- HEADER ADJUSTMENT--------------------------------*/
+
+ .name-email-cpf {
   margin-top: 65px;
  }
+
+.letter-payment {
+  margin-top: 15px;
+  color: #1188EE;
+  font-size: 1.2em;
+}
+
+.dividing-line {
+  background: rgba(187, 204, 221, 0.4);
+  width: 540px;
+  height: 3px;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+
+.information {  
+  margin-bottom: 50px;
+}
+
+
+.mbt-10 {
+  margin: 10px 0;
+}
+
 
 
 /*---------------------------- FORM ADJUSTMENT--------------------------------*/
@@ -35,9 +84,9 @@ html, body, #home {
 .form-group .form-control {
     display: block;
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
+    height: 50px;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
     color: #445566;
@@ -49,7 +98,13 @@ html, body, #home {
 }
 
 label {
-	color: #445566
+	color: #445566;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.btn-letter {
+  text-transform: uppercase;
 }
 
 /*------------------------ PLACEHOLDER ADJUSTMENT----------------------------*/
