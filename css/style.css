@@ -5,7 +5,6 @@
 
 html, body, #home {
   overflow-x: hidden;
-  font-family: 'Nunito'; font-size: 1em;
 }
 
 /*---------------------------- NAVBAR ADJUSTMENT--------------------------------*/
@@ -106,6 +105,21 @@ label {
 .btn-letter {
   text-transform: uppercase;
 }
+
+/*------------------------ ARROW SELECT ADJUSTMENT -------------------------*/
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  width: 100%;
+}
+
+.select {  
+  background: red url('../img/caret-down-solid.svg') 90% 50% no-repeat;
+  background-size: 10px 50px; 
+}
+
 
 /*------------------------ PLACEHOLDER ADJUSTMENT----------------------------*/
 
