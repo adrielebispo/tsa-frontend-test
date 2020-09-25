@@ -98,7 +98,6 @@ html, body{
 
 .dividing-line {
   background: rgba(187, 204, 221, 0.4);
-  width: 710px;
   height: 3px;
   margin: 10px auto;
   margin-bottom: 50px;
@@ -128,8 +127,9 @@ html, body{
   margin-bottom: 100px;
 }
 
-td {
+td, th {
   width: 25%;
+  border: 1px solid rgb(187, 204, 221);
 }
 
 tr {

@@ -20,6 +20,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 	<link href='Alice/Alice-Regular.ttf' rel='stylesheet'>
 
+	<!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
 	<!-- My CSS stylesheet-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -57,7 +62,7 @@
 	<section class="bg-title"> <!--Section 1 starts -->
 		<div class="container">
 			<div class="row">
-				<div class="col-6 offset-3">
+				<div class="col-sm-12 offset-lg-2 offset-md-1">
 					<h1 class="title">Lista</h1>
 				</div>
 			</div>
@@ -65,104 +70,70 @@
 	</section> <!--Section 1 ends -->
 
 	<section> <!--Section 2 starts -->
-		<div class="container mt-5">
-			
-			<div class="col-6 offset-3 letter-payment mb-0 label-2 pr-0 pl-0">
-				Lista de Clientes
-			</div>
-			<div class="dividing-line-2 pr-0 pl-0"></div>
-			
-			<div class="col-6 offset-3 pr-0 pl-0">
-				<form>
-					<div class="form-group">
-			            <label for="name">Nome do Cliente</label>
-			            <input class="form-control" type="text" id="name">
-			        </div>
-			    </form>
+		<div class="container align-self-center mt-5">
+			<div class="row letter-payment">
+				<div class="col-md-8 offset-md-2 label-2 pl-4 pr-4">
+					<div class="col-12 pl-0">
+						Lista de Clientes
+					</div>
+					<div class="dividing-line"></div>
+				</div>				
 			</div>
 		</div>
 	</section> <!--Section 2 ends -->
 
-	<section> <!--Section 3 starts -->
-
-		<div class="container">
-
-			<div class="col-6 offset-3 pr-0 pl-0 mt-5 mbottom" style="border: 1px solid red">
-
-				<table class="table table-bordered mb-5 " style="border: 1px solid green">
-					<thead>
-					    <tr>
-							<th scope="col">Nome</th>
-						    <th scope="col">Email</th>
-							<th scope="col">Cpf</th>
-							<th scope="col">Criado em</th>
-					    </tr>
-					</thead>
-					<tbody>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>
-					    <tr>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					        <td></td>
-					    </tr>					    
-					</tbody>
-				</table>
-				
+	<section> <!--Section 3 starts -->	
+		<div class="container align-self center">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 name-email-cpf mt-0 pr-1 pl-1">
+					<div class="col-sm-12">
+						<form>
+							<div class="form-group">
+					            <label for="name">Nome do Cliente</label>
+					            <input class="form-control" type="text" id="name">
+					        </div>
+						</form>
+					</div>
+				</div>
 			</div>
-			
 		</div>
-		
 	</section> <!--Section 3 ends -->
 
-	
+	<section> <!--Section 4 starts -->
+		<div class="container align-self-center">
+			<div class="row">
+				<div class="row col-md-8 offset-md-2 mt-5 mbottom p-0">				
+					<div class="col-12">	
+						<table class="table table-bordered mb-5">
+							<thead>
+							    <tr>
+									<th scope="col">Nome</th>
+								    <th scope="col">Email</th>
+									<th scope="col">Cpf</th>
+									<th scope="col">Criado em</th>
+							    </tr>
+							</thead>
+							<tbody>
+							    <tr>
+							        <td>1</td>
+							        <td>2</td>
+							        <td>3</td>
+							        <td>4</td>
+							    </tr>
+							    <tr>
+							        <td>5</td>
+							        <td>6</td>
+							        <td>7</td>
+							        <td>8</td>
+							    </tr>					    					    
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> <!--Section 4 ends -->
+
 
 	<footer class="bg-primary">
 		Adriele Bispo N Urbano - 2020
