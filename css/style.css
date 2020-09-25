@@ -8,6 +8,10 @@ html, body{
   font-family: "Nunito";
 }
 
+.error {
+  color: red;
+}
+
 
 /*---------------------------- NAVBAR ADJUSTMENT--------------------------------*/
 
@@ -24,11 +28,14 @@ html, body{
     padding-left: .5rem;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover {
     color: rgb(187, 204, 221);
+    cursor: pointer;
 }
+
 
 .fa-bars {
   color: white;
@@ -165,6 +172,14 @@ label, .label {
 
 .btn-letter {
   text-transform: uppercase;
+}
+
+
+.form-control:disabled {
+  background-color: rgba(200,200,200,0.5);
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 1;
 }
 
 /*------------------------ ARROW SELECT ADJUSTMENT -------------------------*/
