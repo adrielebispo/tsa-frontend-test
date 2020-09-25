@@ -94,6 +94,7 @@ var vm = new Vue({
 				});
 
 				this.clearAllInputs();
+				alert('Cadastro realizado com sucesso!');
 			}
 		},
 		updatePage: function (targetPage) {
